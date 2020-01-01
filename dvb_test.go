@@ -3,7 +3,8 @@ package dvb
 import (
 	"testing"
 
-	_ "github.com/orchestrate-io/dvr"
+	// TODO: Fix broken dependency
+	/*_ "github.com/orchestrate-io/dvr"*/
 )
 
 func TestMonitor(t *testing.T) {
